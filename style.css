@@ -1,0 +1,8 @@
+style.css
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:Arial,sans-serif;background:#f4f4f4;}
+header{background:#0077cc;color:white;text-align:center;padding:30px;}
+.container{display:flex;justify-content:center;margin-top:40px;}
+.card{background:white;padding:20px;width:300px;border-radius:10px;box-shadow:0 0 10px rgba(0,0,0,0.2);text-align:center;}
+button{margin-top:15px;padding:10px 20px;cursor:pointer;}
+@media(max-width:600px){.card{width:90%;}}
